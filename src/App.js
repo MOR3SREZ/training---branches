@@ -1,10 +1,13 @@
-import './App.css';
+import React from 'react';
+import BackwardCounter from './components/BackwardCounter';
+import ForwardCounter from './components/ForwardCounter';
 
 function App() {
   return (
-    <div className='App'>
-     hello world
-    </div>
+    <React.Fragment>
+      <ForwardCounter />
+      <BackwardCounter />
+    </React.Fragment>
   );
 }
 
