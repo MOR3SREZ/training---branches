@@ -1,0 +1,54 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: aliceblue;
+  flex-direction: column;
+}
+
+.container {
+  position: relative;
+  border: 1px solid blue;
+  padding: 0px;
+  width: 200px;
+  height: 200px;
+  /* overflow: hidden; */
+}
+
+.ul {
+  width: 400px;
+  height: 400px;
+  /* border: 1px solid red; */
+  /* border-radius: 100%; */
+
+  list-style-type: none;
+
+  transform-origin: center;
+  transition: all 1s ease-in;
+}
+
+.box {
+  border: 1px solid gray;
+  padding: 3rem;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-1 {
+  background-color: rgb(189, 62, 157);
+}
+.box-2 {
+  background-color: rgb(72, 173, 77);
+}
+.box-3 {
+  background-color: rgb(35, 205, 211);
+}
+.box-4 {
+  background-color: rgb(204, 195, 64);
+}
